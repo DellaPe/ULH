@@ -1,0 +1,180 @@
+@font-face {
+    font-family: quenda;
+    src: url(Imagenes/Quenda-Medium.otf);
+}
+*{
+    margin: 0px;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+    font-family: quenda;
+    font-size: 50px;
+   
+}
+body{
+    background-color: black;
+    width: 100%;
+    height: 90%;
+}
+/*----------Header----------*/
+header{
+    margin-top: 0px;
+    width: 100%;
+    display: block;
+}
+.ulh_texto{
+    margin-left: 205px;
+    font-size: 100px
+}
+
+/*----------Container----------*/
+.container{
+    margin-top:-20px;
+    display: flex;
+    width: 1920px;
+}
+/*----------Navegador----------*/
+nav{
+    width: auto;
+    margin-top: 104px;
+    margin-left: 94px;
+}
+.menu{
+    display: flex;
+}
+.button{
+    display: flex;
+}
+.menu1{
+    margin-top: 110px;
+    text-align: center;
+    opacity: 1;
+}
+.menu2{
+    margin-top: 149px;
+    text-align: center;
+    opacity: 1;
+}
+.menu3{
+    margin-top: 125px;
+    text-align: center;
+    opacity: 1;
+}
+
+/*Nosotros*/
+p{
+    font-size: 35px;
+    margin-top: 230px;
+    display: none;
+    margin-left: 22px;
+    max-width: 480px;
+    opacity: 0;
+    position: absolute;
+    cursor: default;
+}
+
+/*Videos*/
+.info__videos{
+    display: none;
+    margin-left: 472px;
+    margin-top: 333px;
+    opacity: 0;
+    max-width: 480px;
+    position:absolute;
+}
+
+.video__hist{
+    margin-bottom: 105px;
+    display: block;
+}
+/*Contactos*/
+.info__contactos{
+    cursor: default;
+    display: none;
+    margin-left: 472px;
+    margin-top: 260px;
+    opacity: 0;
+    max-width: 480px;
+    position: absolute;
+}
+h2{
+    margin-bottom: 80px;
+    font-size: 35px;
+    display: flex;
+    text-align: center;
+}
+
+/* Imagenes */
+.img__menu1{
+    width: 46px;
+    height: 36px;
+    margin-left: 30px;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+.img__menu2{
+    width: 46px;
+    height: 31px;
+    margin-left: 30px;
+    margin-right: 25px;
+    margin-top: 15px;   
+}
+.img__menu3{
+    width: 46px;
+    height: 46px;
+    margin-left: 30px;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+.img__cont{
+    width: 36px;
+    height: 36px;
+    margin-right: 35px;
+}
+
+/* Despplegables*/
+.desplegable__1{
+    visibility: hidden;
+    opacity: 0;
+}
+.desplegable__2{
+    visibility: hidden;
+    opacity: 0;
+}
+.desplegable__3{
+    visibility: hidden;
+    opacity: 0;
+}
+.desplegable__video{
+    margin-right: 30px;
+}
+.con__imag{
+    width: 100%;
+    text-align:end;
+    margin-top: 130px;
+    margin-right: 90px;
+}
+.logo__ulh{
+    width: 1111px;
+    opacity: 1;
+}
+/*----VIDEOS-----*/
+.videos{
+    opacity: 0;
+    display: none;
+    margin-left: 90px;
+    width: 1200px;
+    height: 620px;
+    position:absolute;
+}
+.button__videos{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.videos__todos{
+    display: none;
+    width: 1200px;
+    height: 500px;
+}
